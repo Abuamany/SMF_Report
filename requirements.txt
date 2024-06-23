@@ -5,6 +5,7 @@ langchain
 PyPDF2
 chromadb
 faiss-cpu
+langchain_community
 Brotli==1.1.0
 cffi==1.16.0
 cssselect2==0.7.0
