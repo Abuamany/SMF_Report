@@ -276,7 +276,7 @@ def save_chat_to_pdf(messages, output_directory):
     return output_file
 
 # Penggunaan:
-output_directory = "/users/dhi/SMF_Gemini/report/"
+#output_directory = "/users/dhi/SMF_Gemini/report/"
 
 
 
@@ -284,7 +284,7 @@ if __name__ == "__main__":
     main()
 
     # Simpan percakapan ke dalam file PDF
-    if st.sidebar.button("Save Chat to PDF"):
-        output_directory = "/users/dhi/SMF_Gemini/report/"  # Ganti dengan direktori penyimpanan yang diinginkan
-        output_file = save_chat_to_pdf(st.session_state.messages, output_directory)
-        st.sidebar.success(f"Conversation saved as {output_file}")
+    #if st.sidebar.button("Save Chat to PDF"):
+    #    output_directory = "/users/dhi/SMF_Gemini/report/"  # Ganti dengan direktori penyimpanan yang diinginkan
+    #    output_file = save_chat_to_pdf(st.session_state.messages, output_directory)
+    #    st.sidebar.success(f"Conversation saved as {output_file}")
